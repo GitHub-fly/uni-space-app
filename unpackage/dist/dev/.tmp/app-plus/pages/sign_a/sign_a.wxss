@@ -1,0 +1,19 @@
+
+.r-button.data-v-3022e5e4 {
+	width: 100%;
+}
+.sy-input-box.data-v-3022e5e4 {
+	margin-top: 25%;
+}
+.sy-input.data-v-3022e5e4 {
+	height: 110rpx;
+}
+button.data-v-3022e5e4::after {
+	border: none;
+}
+.select.data-v-3022e5e4 {
+	margin-top: 10%;
+	margin: 0 auto;
+	width: 90%;
+}
+

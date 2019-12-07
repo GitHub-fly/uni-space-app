@@ -1,0 +1,121 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText":"首页"
+				// "enablePullDownRefresh": "true"
+			}
+		},
+		{
+			"path": "pages/choiceness/choiceness",
+			"style": {
+				"navigationBarTitleText":"精选"
+				// "enablePullDownRefresh": "true"
+			}
+		},
+		{
+			"path":"pages/dynamic/dynamic",
+			"style":{
+				"navigationBarTitleText":"动态"
+				// "enablePullDownRefresh":"true"
+			}
+		},
+		{
+			"path":"pages/message/message",
+			"style":{
+				"navigationBarTitleText":"消息"
+				// "enablePullDownRefresh":"true"
+			}
+		},
+		{
+			"path":"pages/my/my",
+			"style":{
+				"navigationBarTitleText":"我的"
+			}
+		},
+		{
+			"path":"pages/sign_a/sign_a",
+			"style":{
+				"navigationBarTitleText":"其他登陆方式"
+			}
+		},
+		{
+			"path":"pages/register/register",
+			"style":{
+				"navigationBarTitleText":"用户注册"
+			}
+		},
+		{
+			"path": "pages/sign_m/sign_m",
+			"style": {
+				"navigationBarTitleText":"手机登录"
+			}
+		},
+		{
+			"path": "pages/forget_p/forget_p",
+			"style": {
+				"navigationBarTitleText":"忘记密码"
+			}
+		},
+		{
+			"path":"pages/my_info/my_info",
+			"style":{
+				"navigationBarTitleText":"编辑资料"
+			}
+		},
+		{	"path":"pages/m_nickname/m_nickname",
+			"style":{
+				"navigationBarTitleText":"修改昵称"
+			}
+		},
+		{	"path":"pages/m_introduction/m_introduction",
+			"style":{
+				"navigationBarTitleText":"修改简介"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "space",
+		"navigationBarBackgroundColor": "#f5f5f5",
+		"backgroundColor": "#f5f5f5"
+	},
+	"tabBar":{
+		"color":"#e0e0e0",
+		"selectedColor":"#212121",
+		"list":[
+		{
+		"pagePath":"pages/index/index",
+		"text":"首页",
+		"iconPath":"static/img/index1.png",
+		"selectedIconPath":"static/img/index.png"
+		},
+		{
+		"pagePath":"pages/choiceness/choiceness",
+		"text":"精选",
+		"iconPath":"static/img/choiceness1.png",
+		"selectedIconPath":"static/img/choiceness.png"
+		},
+		{
+		"pagePath":"pages/dynamic/dynamic",
+		"text":"动态",
+		"iconPath":"static/img/dynamic1.png",
+		"selectedIconPath":"static/img/dynamic.png"
+		},
+		{
+		"pagePath":"pages/message/message",
+		"text":"消息",
+		"iconPath":"static/img/message1.png",
+		"selectedIconPath":"static/img/message.png"
+		},
+		{
+		"pagePath":"pages/sign_m/sign_m",
+		"text":"我的",
+		"iconPath":"static/img/my1.png",
+		"selectedIconPath":"static/img/my.png"
+		}
+		]
+	}
+}

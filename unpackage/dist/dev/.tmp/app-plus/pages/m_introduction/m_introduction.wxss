@@ -1,0 +1,13 @@
+
+.s-input.data-v-3d5c3b6e{
+	margin: 0 auto;
+	width: 80%;
+	height: 300rpx;
+	border-radius: 5px;
+	border: 1px solid #d7ccc8;
+	font-size: 14px;
+}
+.s-margin.data-v-3d5c3b6e{
+	margin: 20px;
+}
+

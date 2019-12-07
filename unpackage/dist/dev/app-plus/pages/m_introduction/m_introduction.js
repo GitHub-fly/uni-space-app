@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"s-input.",[1],"data-v-3d5c3b6e{ margin: 0 auto; width: 80%; height: ",[0,300],"; border-radius: 5px; border: 1px solid #d7ccc8; font-size: 14px; }\n.",[1],"s-margin.",[1],"data-v-3d5c3b6e{ margin: 20px; }\n",],undefined,{path:"./pages/m_introduction/m_introduction.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/m_introduction/m_introduction.wxml') } }));

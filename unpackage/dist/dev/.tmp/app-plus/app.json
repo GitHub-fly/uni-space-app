@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/choiceness/choiceness",
+    "pages/dynamic/dynamic",
+    "pages/message/message",
+    "pages/my/my",
+    "pages/sign_a/sign_a",
+    "pages/register/register",
+    "pages/sign_m/sign_m",
+    "pages/forget_p/forget_p",
+    "pages/my_info/my_info",
+    "pages/m_nickname/m_nickname",
+    "pages/m_introduction/m_introduction"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "space",
+    "navigationBarBackgroundColor": "#f5f5f5",
+    "backgroundColor": "#f5f5f5"
+  },
+  "tabBar": {
+    "color": "#e0e0e0",
+    "selectedColor": "#212121",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/index1.png",
+        "selectedIconPath": "static/img/index.png"
+      },
+      {
+        "pagePath": "pages/choiceness/choiceness",
+        "text": "精选",
+        "iconPath": "static/img/choiceness1.png",
+        "selectedIconPath": "static/img/choiceness.png"
+      },
+      {
+        "pagePath": "pages/dynamic/dynamic",
+        "text": "动态",
+        "iconPath": "static/img/dynamic1.png",
+        "selectedIconPath": "static/img/dynamic.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "static/img/message1.png",
+        "selectedIconPath": "static/img/message.png"
+      },
+      {
+        "pagePath": "pages/sign_m/sign_m",
+        "text": "我的",
+        "iconPath": "static/img/my1.png",
+        "selectedIconPath": "static/img/my.png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "uni-space-app",
+  "compilerVersion": "2.2.2",
+  "usingComponents": {}
+}

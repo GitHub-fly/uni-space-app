@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"r-button.",[1],"data-v-3022e5e4 { width: 100%; }\n.",[1],"sy-input-box.",[1],"data-v-3022e5e4 { margin-top: 25%; }\n.",[1],"sy-input.",[1],"data-v-3022e5e4 { height: ",[0,110],"; }\nwx-button.",[1],"data-v-3022e5e4::after { border: none; }\n.",[1],"select.",[1],"data-v-3022e5e4 { margin-top: 10%; margin: 0 auto; width: 90%; }\n",],undefined,{path:"./pages/sign_a/sign_a.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/sign_a/sign_a.wxml') } }));
